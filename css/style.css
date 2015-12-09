@@ -1,0 +1,22 @@
+#big{
+  width: 400px;
+  height: 400px;
+}
+#medium{
+  width: 200px;
+  height: 200px;
+}
+#small{
+  width: 100px;
+  height: 100px;
+}
+
+.any-fox{
+  position: relative;
+}
+
+@keyframes race{
+  0% {top: 20px;}
+  50% {top: 500px;}
+  100% {top: 20px;}
+}
